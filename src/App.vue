@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>Elise @Puzzle Game</h1>
+    <h1>Newton @Puzzle Game</h1>
     <PuzzlePage @puzzle-changed="($event) => (selectedPuzzleID = $event)" />
     <RecordsPage />
     <SliderPuzzle :puzzleId="selectedPuzzleID"/>
